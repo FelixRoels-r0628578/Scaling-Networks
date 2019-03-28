@@ -27,7 +27,7 @@ planning:
 8. Dynamische NAT
 9. QoS (optioneel)
 
-samenwerkingscontract opstellen
+samenwerkingscontract opstellen ?
 
 cursus r&s opfrissen
 
