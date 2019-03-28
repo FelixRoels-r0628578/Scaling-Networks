@@ -1,5 +1,31 @@
 
-planning
+planning:
+	- 2 gebouwen -> elk 1 L3 tot beide ISPs of tot verschillende ISPs 
+	- 2 ISPs
+	- verschillened verdiepingen minstens 1 access switch -> aggregeer op v8 en v21
+	- 4 aggregatie switches redundant met elkaar verbonden
+	- enkel v8 switches verbinding tot resp router
+	- redundante verbinding en eventuele failover met de andere ISP
+	- redundantie hardware !
+	- elke ISP 5 IPs: 1 internet, 4 NAT
+
+* VLAN 66: Boekhouding
+* VLAN 67: Management CxO
+* VLAN 68: IT Management
+* VLAN 69: Sales
+* VLAN 70: Research and Development
+* VLAN 71: Onderhoud
+* VLAN 150: Voice
+	
+1. VTP
+2. DTP
+3. Inter-VLAN routering
+4. Dynamische routing (multi area OSPF en EIGRP)
+5. STP
+6. Etherchannel en LACP
+7. HSRP
+8. Dynamische NAT
+9. QoS (optioneel)
 
 samenwerkingscontract opstellen
 
