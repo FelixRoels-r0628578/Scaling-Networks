@@ -27,12 +27,14 @@ planning:
 8. Dynamische NAT
 9. QoS (optioneel)
 
-samenwerkingscontract opstellen ?
-
-cursus r&s opfrissen
-
-gliffy
-
-gens3
-
-opdracht 1
+enable
+conf t
+vtp domain A2V21
+vtp mode client
+vtp password cisco
+no ip domain-lookup
+service password-encryption
+interface f0/1
+switchport mode dynamic desirable
+end
+copy running-config startup-config
